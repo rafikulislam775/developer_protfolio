@@ -1,0 +1,48 @@
+/* common shared style */
+body {
+  font-family: "Open Sans", sans-serif;
+}
+/* nav related styles */
+nav {
+  display: flex;
+}
+.nav-title {
+  color: #181818;
+  text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  font-family: Open Sans;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.text-primary {
+  color: #fd6e0a;
+}
+.btn-primary {
+  border-radius: 5px;
+  background: #fd6e0a;
+}
+.nav-btn {
+  width: 150px;
+  height: 64px;
+  flex-shrink: 0;
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+/* only nav er near ul k connect korv */
+nav > ul {
+  display: flex;
+}
+/* nav er bitorer all li connect kora */
+nav li {
+  list-style: none;
+  margin-right: 50px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #474747;
+}
